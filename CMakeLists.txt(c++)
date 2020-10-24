@@ -1,0 +1,13 @@
+#this file is CMakeLists.txt for c++                              
+#enter cmake CMakeLists.txt to create MakeFile                
+#It will be compiled with CXX (default c++ compiler)
+#conpiler options are g++'s options so if your CXX is not g++ I'm not sure it will work.                                         #so if your CXX is not gcc, I'm not sure it will work.            
+
+cmake_minimum_required(VERSION 3.10)
+
+add_compile_options(-Wall -Wpedantic -pedantic)
+
+set(CMAKE_BUILD_TYPE Debug)                                       
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(main main.cpp)
