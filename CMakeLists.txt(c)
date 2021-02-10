@@ -5,7 +5,7 @@
 
 cmake_minimum_required(VERSION 3.10)
 
-add_compile_options(-Wall -Wpedantic -pedantic)
+add_compile_options(-Wall -Wextra -Wpedantic)
 
 set(CMAKE_BUILD_TYPE Debug)
 
